@@ -120,3 +120,10 @@ dist-test/
 .gitignore-d
 package-d.json
 .vscode/
+
+p.gitignore
+p.git
+ppackage.json
+d.gitignore
+d.git
+dpackage.json

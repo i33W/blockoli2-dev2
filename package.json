@@ -49,7 +49,11 @@
       "icon": "./renderer/img/favicon.ico"
     },
     "nsis": {
-      "oneClick": true
+      "oneClick": true,
+      "perMachine": true,
+      "language": 1042,
+      "shortcutName": "Blockoli",
+      "include": "build/installer.nsh"
     },
     "directories": {
       "output": "./dist/"
