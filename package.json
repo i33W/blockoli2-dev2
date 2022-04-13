@@ -49,6 +49,7 @@
       "icon": "./renderer/img/favicon.ico"
     },
     "nsis": {
+      "createDesktopShortcut": "always",
       "oneClick": true,
       "perMachine": true,
       "language": 1042,
