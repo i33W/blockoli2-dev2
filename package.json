@@ -35,7 +35,7 @@
     "electron-updater": "^4.3.9"
   },
   "build": {
-    "productName": "Blockoli2 Test",
+    "productName": "Blockoli2-Test",
     "appId": "com.github.i33w.blockoli2-dev2",
     "asar": false,
     "publish": [
