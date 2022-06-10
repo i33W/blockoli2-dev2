@@ -32,6 +32,8 @@
     "electron-prompt": "^1.7.0",
     "electron-updater": "^4.3.9",
     "iconv-lite": "^0.6.3",
+    "ini": "^3.0.0",
+    "object-path": "^0.11.8",
     "serialport": "^9.2.8"
   },
   "build": {
