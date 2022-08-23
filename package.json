@@ -6,7 +6,7 @@
   "scripts": {
     "start": "SET \"NODE_ENV=develop\" && electron .",
     "test": "SET \"NODE_ENV=develop2\" && electron .",
-    "publish": "SET \"NODE_ENV=production\" && electron-builder --win --x64 --ia32 -p always"
+    "publish": "SET \"NODE_ENV=production\" && electron-builder --win -p always"
   },
   "repository": {
     "type": "git",
@@ -49,6 +49,10 @@
     ],
     "win": {
       "target": "nsis",
+      "arch": [
+        "x64",
+        "ia32"
+      ],
       "icon": "./renderer/img/favicon.ico"
     },
     "nsis": {
