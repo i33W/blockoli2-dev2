@@ -128,3 +128,4 @@ d.gitignore
 d.git
 dpackage.json
 language.json
+/conf
